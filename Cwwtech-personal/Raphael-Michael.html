@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Calculator</title>
+  <link rel="stylesheet" href="Raphael-Michael.css">
+</head>
+
+<body>
+  <h1>Temperature Converter</h1>
+
+  <!-- converting celsius to Kelvin -->
+ <div class="container">
+  <div class="celsius flex">
+    <h2>Converting Celcius to Kelvin</h2>
+    <input type="text" placeholder="Enter temperature in Celsius" id="celsius">
+    <button id="btn">Convert</button>
+
+    <div>
+      <h2>Kelvin Temperature(K) is: <span id="result">0 K</span></h2>
+    </div>
+  </div>
+  <!-- Converting celsius to Fahrenheit -->
+  <div class="fahrenheit flex">
+    <h2>Converting Celcius to fahrenheit</h2>
+    <input type="text" placeholder="Enter temperature in Celsius" id="fahrenheit">
+    <button id="faren-btn">Convert</button>
+
+    <div>
+      <h2>Farenheit Temperature(F) is: <span id="faren-result">0 &degF</span></h2>
+    </div>
+
+ </div>
+  <script src="Raphael-Michael.js"></script>
+</body>
+
+</html>
